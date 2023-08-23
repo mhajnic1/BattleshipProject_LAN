@@ -24,7 +24,7 @@ public class Home {
 
 	public void init() {
 		initBaze = new InitBaze("oracle.jdbc.driver.OracleDriver",
-				"jdbc:oracle:thin:@10.200.240.126:1521/test.int.login.hr", "usr9", "mN#2112");
+				"/*your database*/", "/*your username for the database*/", "/*your password for the database*/");
 		baza = new Baza(initBaze);
 		network = new Network(this);
 		config = new Config();
